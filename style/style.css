@@ -34,7 +34,7 @@ div h3{
 
 .navbar{
     display: flex;
-   
+    justify-content: space-around;   
 }
 .nav-list{
     gap: 32;
@@ -99,7 +99,6 @@ div h3{
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
-    text-align: left;
 }
 
 /* shared styles */
@@ -119,3 +118,66 @@ div h3{
     width: 197px;
     height: 50px;
 }   
+
+.btn-2{
+    width: 197px;
+    height: 50px;
+    margin: 24px 0px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    border: none;
+}
+.btn-2 span {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+
+/* banner */
+
+.banner{
+    display: flex;
+    position: absolute;
+    width: 1158.61px;
+    height: 575px;
+    left: 141px;
+    top: 100px;
+    align-items: center;
+    gap: 50;
+    padding: 0px;
+}
+
+.banner-box{
+    position: static;
+    width: 640px;
+    height: 331px;
+    margin: 0px 50px;
+}
+
+.banner-heading{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+    text-align: left;
+}
+
+.banner-title{
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+}
+
+.orange{
+    color: rgb(254, 163, 1);
+}
+
+.blue{
+    color: rgb(1, 172, 253);
+}
+
